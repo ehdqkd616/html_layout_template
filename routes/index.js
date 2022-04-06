@@ -14,4 +14,10 @@ router.get('/codeup_layout', function (req, res, next) {
     });
 });
 
+router.get('/baekjoon_layout', function (req, res, next) {
+    res.render('baekjoon_layout', {
+        title: 'BaekJoon_Layout'
+    });
+});
+
 module.exports = router;
